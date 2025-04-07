@@ -1,0 +1,29 @@
+ Примените для одного из своих проектов фазз-тестирование.
+Немного рассказывал о нём тут:
+https://vk.com/wall-152484379_3530
+https://vk.com/wall-152484379_3532
+
+Используйте одну из следующих систем, на выбор (или любую другую :):
+
+afl++
+github.com/AFLplusplus/AFLplusplus
+
+libfuzzer
+llvm.org/docs/LibFuzzer.html
+Очень прост в установке в *nix, поскольку встроен в Clang + llvm.
+moritz.systems/blog/an-introduction-to-llvm-libfuzzer/
+
+ClusterFuzz
+github.com/google/clusterfuzz
+
+Jazzer (JAVA)
+https://github.com/CodeIntelligenceTesting/jazzer
+Присутствует CLI клиент для запуска тестов в терминале, и библиотека зависимости для написания самих тестов в стиле JUnit (очень удобно).
+
+Для Python очень рекомендуют atheris.
+
+Быстрое введение в тему:
+habr.com/ru/company/bizone/blog/570312/
+habr.com/ru/company/dsec/blog/435644/
+
+В отчёте напишите, какие трудности были при организации фазз-тестирования, на каком языке написан ваш проект, сколько в нём строк кода, и сколько ошибок в нём выявило фазз-тестирование
